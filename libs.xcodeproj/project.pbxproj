@@ -1,0 +1,121 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E002481425DF6C520004F486 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E01E2E851C0AED6100FDC573 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		E04AE88F1C09A19000522C83 /* emcc.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = emcc.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E09985A71C09A00D0084A419 = {
+			isa = PBXGroup;
+			children = (
+				E002481425DF6C520004F486 /* main.cpp */,
+				E04AE88F1C09A19000522C83 /* emcc.sh */,
+				E01E2E851C0AED6100FDC573 /* index.html */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E09985AC1C09A00D0084A419 /* libs */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = emcc.sh;
+			buildConfigurationList = E09985AF1C09A00D0084A419 /* Build configuration list for PBXLegacyTarget "libs" */;
+			buildPhases = (
+			);
+			buildToolPath = /bin/zsh;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = libs;
+			passBuildSettingsInEnvironment = 0;
+			productName = JavaScript;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		E09985A81C09A00D0084A419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					E09985AC1C09A00D0084A419 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = E09985AB1C09A00D0084A419 /* Build configuration list for PBXProject "libs" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E09985A71C09A00D0084A419;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E09985AC1C09A00D0084A419 /* libs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E09985AD1C09A00D0084A419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E09985AE1C09A00D0084A419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		E09985B01C09A00D0084A419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E09985B11C09A00D0084A419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E09985AB1C09A00D0084A419 /* Build configuration list for PBXProject "libs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E09985AD1C09A00D0084A419 /* Debug */,
+				E09985AE1C09A00D0084A419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E09985AF1C09A00D0084A419 /* Build configuration list for PBXLegacyTarget "libs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E09985B01C09A00D0084A419 /* Debug */,
+				E09985B11C09A00D0084A419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E09985A81C09A00D0084A419 /* Project object */;
+}
